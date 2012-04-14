@@ -1,0 +1,86 @@
+/* Main Stylesheet */
+
+body{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+table.reminder-list{font: 85% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;padding: 0; margin: 0; border-collapse: collapse; color: #333; background: #F3F5F7; width:678px;}
+table.reminder-list a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}  
+table.reminder-list a:visited {color: #777;}
+table.reminder-list a:hover {color: #000;}  
+table.reminder-list caption {text-align: left; text-transform: uppercase;  padding-bottom: 10px; font: 200% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;}
+table.reminder-list thead th {background: #3A4856; padding: 2px 5px; color: #FFA500; text-align: left; font-weight: bold;}
+table.reminder-list tbody, table thead {border-left: 1px solid #3A4856; border-right: 1px solid #3A4856;}
+table.reminder-list tbody {border-bottom: 1px solid #EAECEE;}               
+table.reminder-list tbody td, table tbody th {padding: 0px 5px; background: url(../td_back.gif) repeat-x; text-align: left; vertical-align:text-top; text-align:justify; font: 85% "Lucida Sans Unicode", "Lucida Grande" , Times, serif;}
+table.reminder-list tbody tr {background: #F3F5F7;}
+table.reminder-list tbody tr.odd {background: #F0F2F4;}
+table.reminder-list tbody  tr:hover {background: #EAECEE; color: #111;}
+table.reminder-list tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif; text-transform: uppercase; background: #fff; padding: 10px;}
+ 
+#message{border:1px solid #9C3; background:#eee; padding:2px; margin:10px 0px; }
+#wrapper{width:678px; margin:0px auto;}
+
+/* Menu */
+.menu{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url(../images/topMenuImages.png) repeat-x;}
+.menu li{padding:0; margin:0; list-style:none; display:inline;}
+.menu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif; cursor:pointer; background:url(../images/topMenuImages.png) 0px -30px no-repeat;}
+.menu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url(../images/topMenuImages.png) 100% -30px no-repeat;}
+.menu li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
+.menu li a:hover span{background-position:100% -60px;}
+.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif; background:url(../topMenuImages.png) 0px -90px no-repeat; color:rgb(255,255,255);}
+.menu li a.active span, .menu li a.active:hover span{background:url(../images/topMenuImages.png) 100% -90px no-repeat;}
+
+.myForm {padding: 0; margin: 0; border-collapse: collapse; color: #333; background: #F3F5F7; font: 80% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS"; border:1px #000 solid;}
+.myForm div:hover{background: #EAECEE; color: #111;}
+.myForm span.form-label{padding: 0px 5px; background: url(../td_back.gif) repeat-x; text-align: left; vertical-align:text-top; text-align:justify; width:160px; display:inline-block;}
+.myForm span.form-text{padding: 0px 5px; background: url(../td_back.gif) repeat-x; text-align: left; vertical-align:text-top; text-align:justify; display:inline-block;}
+.myForm span.form-submit{padding: 0px 178px; display:inline-block;}
+
+.error_strings{
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+}
+.sfm_float_error_box
+{
+    position:absolute;
+    z-index:999;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+    border-style:solid;
+    border-width:1px;
+    border-color:#660000;
+}
+.sfm_float_box_td
+{
+    padding:3px;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background-color:#ffff66;
+}
+.sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#660000;
+    border-width:0px;
+    text-align:center;
+}
+.sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+    border-style:solid;
+    border-width:0px;
+    border-color:#660000;
+}
+.sfm_cr_box a
+{
+    color:#888888;
+}
