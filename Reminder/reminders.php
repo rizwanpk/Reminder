@@ -185,6 +185,4 @@ myFormValidator.addValidation("description","req","Please fill in description");
 		echo '</table>';
 		
 	}
-	
-	
 }
