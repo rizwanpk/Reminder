@@ -12,7 +12,7 @@
   </a>
   <ul class="menu">
     <li><a href="index.php"><span>Show All</span></a></li>
-    <li><a href="index.php?show_non_expired=1"><span>Non-Expired Reminders</span></a></li>
+    <li><a href="index.php?show_non_expired=1"><span>Show Non-Expired Reminders</span></a></li>
   </ul>
  
   <!--Show Popup Messages-->
