@@ -8,8 +8,7 @@
 <script type="text/javascript" src="js/DateTimePicker.js"></script>
 </head>
 <body>
-<div id="wrapper"> <a href="index.php"><img src="images/images.jpg" width="100" height="100"/><br />
-  </a>
+<div id="wrapper">
   <ul class="menu">
     <li><a href="index.php"><span>Show All</span></a></li>
     <li><a href="index.php?show_non_expired=1"><span>Show Non-Expired Reminders</span></a></li>
